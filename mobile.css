@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 50%;
+}
+nav{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    z-index: 9;
+    background-color: #fef8e0;
+    box-shadow: 0 4px 6px 0 rgba(255, 255, 255, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.logo_pic{
+    width: 70px;
+    margin-left: 20px;
+}
+.bar{
+    float: right;
+    padding: 20px;
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+li{
+    float:left;
+    list-style-type: none;
+    font-size: 1.7rem;
+    padding-top: 9px;
+    margin-left: 0px;
+    font-size: 1.8rem;
+    color: #875c49;
+    font-weight: bold;
+    display: block;
+}
+li.space,
+.sign_in{
+    display: none;
+}
+li.space{
+    margin-top: 18px;
+    background-color: #fef8e0;
+    padding: 9px;
+}
+li.space:hover{
+    background-color: #875c49;
+    color: #fef8e0;
+    
+    border-radius: 20px;
+}
+ul{
+    margin-left: 40rem;
+}
+.sign_in{
+    float: left;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-left: 13rem;
+    text-align: center;
+    color:#875c49;
+    background-color: #fef8e0;
+    border: 1px solid #875c49;
+    padding: 9px;
+    width: 8vw;
+    border-radius: 20px;
+}
+.sign_in:hover{
+    background-color: #875c49;
+    color: #fef8e0;
+
+}
+.section_1{
+    position: relative;
+    height: 55vh;
+    background-color: #e4c89f;
+}
+.section1_div1{
+    position: absolute;
+    left: 230px;
+    top: 130px;
+}
+.section1_div2{
+    position: absolute;
+    left: 20px;
+    top: 160px;
+}
+.img1{
+    width: 150px;
+}
+.style1{
+    font-size: 2.5rem;
+    color: #574633;
+}
+.style2{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #875c49;
+}
+.style3{
+    text-decoration: none;
+    color: white;
+    background-color: #875c49;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    border-radius: 40px;
+
+}
+.style3:hover,
+.style4:hover{
+    background-color:#fef8e0;
+    color: #6b4027;
+    border:1px solid #6b4027;
+    font-weight: bold;
+}
+.style4{
+    text-decoration: none;
+    color: white;
+    background-color:#e4c89f ;
+    padding: 8px;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    border: 1px solid #875c49;
+    border-radius: 40px;
+}
+.section_2{
+    position: relative;
+    height: 70vh;
+    background-color: #fef8e0;
+}
+.section2_div1{
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+.img2{
+    width: 250px;
+}
+.section2_div3{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.text1{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #705d52;
+}
+.text2{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #8f8b80;
+}
+.text3{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #8f8b80;
+}
+.text4{
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #8f8b80;
+}
+.button{
+    text-decoration: none;
+    background-color: #6b4027;
+    color: #fef8e0;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    }
+    .button:hover{
+        background-color:#fef8e0;
+        color: #6b4027;
+        border:1px solid #6b4027;
+        font-weight: bold;
+    }
+    .section_4{
+        position: relative;
+        height: 55vh;
+        background-color:#6b4027;
+    }
+    .center{
+        text-align: center;
+        font-size: 4rem;
+        padding-top: 40px;
+        color: #fef8e0;
+
+    }
+    .section4_div1{
+        position: absolute;
+        background-color: #fef8e0;
+        top: 130px;
+        left: 2px;
+        width: 33vw;
+        height: 25vh;
+        border-radius: 20px;
+    }
+    .pic1{
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 100px;
+    }
+   .cake_text1{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 1.9rem;
+   }
+   .cake_text2{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+   }
+   .cake_text3{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #6b4027;
+    font-weight: bold;
+   }
+   .section4_div2{
+        position: absolute;
+        background-color: #fef8e0;
+        top: 130px;
+        left: 132px;
+        width: 33vw;
+        height: 25vh;
+        border-radius: 20px;
+}
+.pic2{
+    width: 90px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.cake2_text1{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+   }
+   .section4_div3{
+    position: absolute;
+        background-color: #fef8e0;
+        top: 130px;
+        left: 262px;
+        width: 32.5vw;
+        height: 25vh;
+        border-radius: 20px;
+}
+.pic3{
+    width: 90px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.cake3_text1{
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 1.9rem;
+   }
+   .section_5{
+    position: relative;background-color: #fef8e0;
+    height: 40vh;
+   }
+   .section5_div1{
+    position: absolute;
+    background-color: #fef8e0;
+    height: 28vh;
+    width: 85vw;
+    top: 40px;
+    left: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(255, 255, 255, 0.2), 0px 4px 6px 3px rgba(0, 0, 0, 0.2);
+   }
+   .video{
+    position: absolute;
+    top: 22px;
+    left: 20px;
+   }
+   .vid_size{
+    width: 290px;
+    
+    border-radius: 20px;
+   }
+   .line{
+    position:absolute ;
+    bottom: 5px;
+    width:85vw;
+    height: 0.2vh;
+    left: 30px;
+    background-color: #ddd;
+   }
+   footer{
+    position: relative;
+    height: 40vh;
+    background-color: #fef8e0;
+   }
+   .f_div1{
+    position: absolute;
+    left: 140px;
+    top: 20px;
+   }
+   .f_pic{
+    width: 110px;
+   }
+   .footer_text1{
+    position: absolute;
+    color: #574633;
+    top: 130px;
+    left: 30px;
+    font-size: 1.5rem;
+   }
+
+   .footer_text2{
+    position: absolute;
+    color:#574633;
+    top: 130px;
+    left: 140px;
+    font-size: 1.5rem;
+   }
+   .footer_text3{
+    position: absolute;
+    color: #574633;
+    top: 130px;
+    left: 256px;
+    font-size: 1.5rem;
+   }
